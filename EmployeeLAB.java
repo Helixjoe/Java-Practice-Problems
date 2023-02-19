@@ -55,10 +55,9 @@ class Manager extends Employee
 		System.out.println("Adress: "+super.address);
 		System.out.println("Phone number: "+super.phone);
 		super.printSalary();
-		System.out.println("Department: "+department);	
-	}
+		System.out.println("Department: "+department);	 
 }
-
+}
 class EmployeeDemo
 {
 	public static void main(String args[])
